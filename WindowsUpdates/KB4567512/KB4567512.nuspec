@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>KB4567512</id>
+    <version>1.0.0</version>
+    <title>Update for Microsoft Windows (KB4554364)</title>
+    <authors>Microsoft</authors>
+    <owners>ds2</owners>
+    <licenseUrl>https://support.microsoft.com/help/4567512</licenseUrl>
+    <projectUrl>https://support.microsoft.com/help/4567512</projectUrl>
+    <iconUrl>https://assets.onestore.ms/cdnfiles/onestorerolling-1509-17011/shell/v1_2/images/logo/microsoft.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Updates an issue that might prevent certain printers from printing, generate print errors, or cause apps and print spoolers to close unexpectedly. </description>
+    <summary>Fix Printer Issue after KB4560960 for W10 1903 and 1909</summary>
+    <releaseNotes>1.0.0: initial update</releaseNotes>
+    <tags>Microsoft Windows Update KB4567512 Fix Printer issue</tags>
+    <packageSourceUrl>https://github.com/ds2edv/choco/tree/master/WindowsUpdates/KB4567512</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-windowsupdate.extension" version="1.0.4" />
+    </dependencies>
+  </metadata>
+</package>
