@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>KB5001567</id>
+    <version>1.0.0</version>
+    <title>Update for Microsoft Windows10 20H1 and 20H2 (KB5001567)</title>
+    <authors>Microsoft</authors>
+    <owners>ds2</owners>
+    <licenseUrl>https://support.microsoft.com/help/5001567</licenseUrl>
+    <projectUrl>https://support.microsoft.com/help/5001567</projectUrl>
+    <iconUrl>https://assets.onestore.ms/cdnfiles/onestorerolling-1509-17011/shell/v1_2/images/logo/microsoft.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Updates an issue that might prevent certain printers from printing, generate print errors, cause BSOD or cause apps and print spoolers to close unexpectedly af CU 03-2021.</description>
+    <summary>Fix Printer Issue after CU 03-2021 for W10 20H1 and 20H2</summary>
+    <releaseNotes>1.0.0: initial version</releaseNotes>
+    <tags>Microsoft Windows Update KB5001567 Fix Printer issue</tags>
+    <packageSourceUrl>https://github.com/ds2edv/choco/tree/master/WindowsUpdates/KB5001567</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-windowsupdate.extension" version="1.0.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
