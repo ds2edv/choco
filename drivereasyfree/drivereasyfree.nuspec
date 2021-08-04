@@ -1,22 +1,28 @@
-<?xml version="1.0"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>drivereasyfree</id>
-    <version>5.6.13.33482</version>
+    <version>5.7.0</version>
     <title>Driver Easy Free</title>
     <authors>Easeware Technology Limited</authors>
     <owners>ds2</owners>
-	<packageSourceUrl>https://github.com/ds2edv/choco.git</packageSourceUrl>
+    <iconUrl>https://rawcdn.githack.com/ds2edv/choco/5dbb0db97b237f58735db2196400b730f581226a/drivereasyfree/drivereasy.png</iconUrl>
     <licenseUrl>https://www.drivereasy.com/eula</licenseUrl>
     <projectUrl>https://www.drivereasy.com</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<releaseNotes>Switch all Driver Easy links from http to https.
-    Update copyright date to 2020.
- </releaseNotes>
     <description>Manually finding drivers for Windows takes forever. And sometimes you still don't find what you need. Driver Easy changes all that. It scans your computer, tells you what drivers are missing or outdated, then downloads them all, in one go. All you have to do is click your mouse button twice. Then, you'll be good to go.
 	
-	This package download and installs allways the latest version of Driver easy Free. The version could be changed to pro version oder technican version with a license key. If you see checksum errors please contact me.</description>
-    <summary>Installs the freeversion of Driver Easy. Could be upgrade to pro with a licensekey.</summary>
-    <tags>drivereasy driverupdater easeware freeware</tags>
+	### NOTES
+	
+	This package download and installs allways the latest version of Driver easy Free and is automated updated. The version could be changed to pro version oder technican version with a license key. If you see checksum errors wait two days and contact me.</description>
+    <summary>Installs the freeversion of Driver Easy. Could be upgrade to pro- or tech version with a licensekey.</summary>
+    <releaseNotes>https://www.drivereasy.com/version-history/</releaseNotes>
+    <tags>drivereasy driverupdater easeware freeware manager driver drivers install missing system tweak update updater backup automatic utility installer driver-update driver-download</tags>
+    <packageSourceUrl>https://github.com/ds2edv/choco</packageSourceUrl>
   </metadata>
+  <files>
+    <file src="tools/chocolateyinstall.ps1" target="tools" />
+    <file src="tools/chocolateyuninstall.ps1" target="tools" />
+  </files>
 </package>
