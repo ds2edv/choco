@@ -1,16 +1,18 @@
+﻿$ErrorActionPreference = 'Stop';
+$version = '5.7.0'
 $package = 'drivereasyfree'
-$version = '5.6.13.33482'
 
 $params = @{
-    PackageName  = $package;
+    PackageName    = $package;
     FileType       = 'exe';
     SilentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-';
     Url            = "https://www.drivereasy.com/header/DriverEasy_Setup.exe"
 	url64bit	   = "https://www.drivereasy.com/header/DriverEasy_Setup.exe"
-    Checksum       = 'DE8E45DDB331851EECEE1C8D03BFC2DF2167D7491AAF28C6352910024B32CE90'
-	Checksum64     = 'DE8E45DDB331851EECEE1C8D03BFC2DF2167D7491AAF28C6352910024B32CE90'
+    Checksum       = '1686DF60C1702329B4135812668620AD396B421C30FE4C4C04038520D7940649'
+	Checksum64     = '1686DF60C1702329B4135812668620AD396B421C30FE4C4C04038520D7940649'
     ChecksumType   = 'sha256'
 	ChecksumType64 = 'sha256'
+	softwareName   = 'Driver Easy*'
 }
 
 Install-ChocolateyPackage @params
