@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one.-->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pendingreboot-psmodule</id>
+    <version>0.9.0.6</version>
+    <title>PendingReboot (Install)</title>
+    <authors>Brian Wilhite</authors>
+    <owners>ds2</owners>
+    <licenseUrl>https://github.com/bcwilhite/PendingReboot/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bcwilhite/PendingReboot/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/DarwinJS/ChocoPackages/0f500f022f5badf483e99310bd431cef60f2521a/pwshpackages/powershell-preview/appicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Module to detect Windows OS pending reboots.
+
+This module leverages WMI in order to query the Registry for various pending reboot detections.</description>
+    <summary>Module for get pending reboot status</summary>
+    <releaseNotes>https://github.com/bcwilhite/PendingReboot/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright>(c) 2018 Brian Wilhite. All rights reserved.</copyright>
+    <tags>PendingReboot pending reboot Powershell Module psmodule utilities powershell</tags>
+    <projectSourceUrl>https://github.com/bcwilhite/PendingReboot/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/ds2edv/choco</packageSourceUrl>
+    <docsUrl>https://github.com/bcwilhite/PendingReboot/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/bcwilhite/PendingReboot/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="powershell" version="5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+	<file src="tools\**" target="tools" />
+  </files>
+</package>
