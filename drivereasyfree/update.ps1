@@ -84,4 +84,11 @@ function global:au_GetLatest {
   } -OnUpdated { @{ URL32 = $url32; }}
 }
 
+function global:au_AfterUpdate {
+  . C:\devop\scripts\mail.ps1
+  $version = $Latest.Version
+  $packagename = "Driver Easy"
+  Mail
+}
+
 update -ChecksumFor none -NoCheckChocoVersion

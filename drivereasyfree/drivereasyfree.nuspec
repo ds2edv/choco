@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>drivereasyfree</id>
-    <version>5.7.0</version>
+    <version>5.7.3</version>
     <title>Driver Easy Free</title>
     <authors>Easeware Technology Limited</authors>
     <owners>ds2</owners>
@@ -19,7 +19,7 @@
     <summary>Installs the freeversion of Driver Easy. Could be upgrade to pro- or tech version with a licensekey.</summary>
     <releaseNotes>https://www.drivereasy.com/version-history/</releaseNotes>
     <tags>drivereasy driverupdater easeware freeware manager driver drivers install missing system tweak update updater backup automatic utility installer driver-update driver-download</tags>
-    <packageSourceUrl>https://github.com/ds2edv/choco</packageSourceUrl>
+    <packageSourceUrl>https://github.com/ds2edv/choco.git</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools/chocolateyinstall.ps1" target="tools" />
